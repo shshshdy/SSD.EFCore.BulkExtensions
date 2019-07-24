@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.BulkExtensions", "EFCore.BulkExtensions\EFCore.BulkExtensions.csproj", "{4943F9B0-D34E-44E4-87D9-C705A140D385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.BulkExtensions.SqlServer", "EFCore.BulkExtensions.SqlServer\EFCore.BulkExtensions.SqlServer.csproj", "{57FF50FE-B442-4B0B-AE86-989663319824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.BulkExtensions.MySql", "EFCore.BulkExtensions.MySql\EFCore.BulkExtensions.MySql.csproj", "{DC6226CE-491F-4D8B-92AC-6E987C49D27F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.BulkExtensions.Oracle", "EFCore.BulkExtensions.Oracle\EFCore.BulkExtensions.Oracle.csproj", "{BB29D4A9-4E48-4913-8B7B-40A336C8BB91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4943F9B0-D34E-44E4-87D9-C705A140D385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4943F9B0-D34E-44E4-87D9-C705A140D385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4943F9B0-D34E-44E4-87D9-C705A140D385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4943F9B0-D34E-44E4-87D9-C705A140D385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FF50FE-B442-4B0B-AE86-989663319824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FF50FE-B442-4B0B-AE86-989663319824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FF50FE-B442-4B0B-AE86-989663319824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FF50FE-B442-4B0B-AE86-989663319824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6226CE-491F-4D8B-92AC-6E987C49D27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6226CE-491F-4D8B-92AC-6E987C49D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6226CE-491F-4D8B-92AC-6E987C49D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6226CE-491F-4D8B-92AC-6E987C49D27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB29D4A9-4E48-4913-8B7B-40A336C8BB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB29D4A9-4E48-4913-8B7B-40A336C8BB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB29D4A9-4E48-4913-8B7B-40A336C8BB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB29D4A9-4E48-4913-8B7B-40A336C8BB91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {341BD625-E0C8-4083-AF15-2EB5CA9AA8DA}
+	EndGlobalSection
+EndGlobal
